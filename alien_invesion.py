@@ -13,12 +13,12 @@ class AlienInvasion:
         # set display and it's size.
         # self.screen is a var. for store the diplay its not mandatory..!!
         # self.screen=pygame.display.set_mode((1000, 600))
-        # pygame.display.set_caption("Alien Invasion")
+        pygame.display.set_caption("Alien Invasion")
         self.screen = pygame.display.set_mode(
         (self.settings.screen_width, self.settings.screen_height))
 
         # Set the background color.
-        self.bg_color = (255, 000, 000)
+        self.bg_color = (230,230,230)
         # (255,000,000)->red     (230,230,230)->white
        
         
